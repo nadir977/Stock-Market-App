@@ -5,7 +5,7 @@ import { cn } from '@/lib/utils';
 
 
 interface TradingViewWidgetProps {
-  title: string;
+  title?: string;
   scriptUrl: string;
   config: Record<string, unknown>;
   height?: number;
