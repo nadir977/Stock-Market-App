@@ -118,7 +118,7 @@ export default function SearchCommand({
                         {stock.symbol} | {stock.exchange} | {stock.type}
                       </div>
                     </div>
-                    <Star />
+                    {/* <Star /> */}
                   </Link>
                 </li>
               ))}
